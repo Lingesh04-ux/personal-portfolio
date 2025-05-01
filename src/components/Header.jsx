@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg';
 import insta from '../assets/insta.svg';
 import fb from '../assets/fb.svg';
 import link from '../assets/link.svg'
-import profilePic from '../assets/photo.jpg';
+import profilePic from '../assets/photo.png';
 import resume from '../assets/resume/Resume.pdf'
 import { ScrollContext } from '../functions/ScrollContext';
 
