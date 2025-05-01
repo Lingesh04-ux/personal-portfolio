@@ -1,4 +1,5 @@
 import React,{ useContext } from 'react';
+import '../style/MainBody4'
 import experience from '../assets/experienceBanner/1.png';
 import mobileEx from '../assets/experienceBanner/mob1.png';
 import { ScrollContext } from '../functions/ScrollContext';

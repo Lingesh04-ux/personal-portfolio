@@ -1,4 +1,5 @@
 import React,{ useContext } from 'react';
+import '../style/MainBody3.scss';
 import gra from '../assets/banners/1.png';
 import college from '../assets/banners/2.png';
 import scl12 from '../assets/banners/3.png';

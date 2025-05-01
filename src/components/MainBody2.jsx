@@ -1,4 +1,5 @@
 import React, {useContext} from 'react';
+import '../style/MainBody2.scss';
 import html from '../assets/pictures/htcs.png';
 import js from '../assets/pictures/jsre.png';
 import ps from '../assets/pictures/psil.png'

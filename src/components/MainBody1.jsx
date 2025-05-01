@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import '../style/Mainbody1.scss';
+import '../style/MainBody1.scss';
 import web from '../assets/pictures/web.png';
 import coding from '../assets/pictures/coding.png';
 import team from '../assets/pictures/team.png';
