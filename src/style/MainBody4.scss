@@ -1,0 +1,69 @@
+@import './GlobalStyle.scss';
+
+.main-body-4-title > .experience-title{
+    font-size:3rem;
+    font-weight: 700;
+    margin: 30px 0px 0px 0px;
+}
+.experience-image-tag > .experience-image{
+    width: 1000px;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.experience-image-tag > .experience-image:hover{
+    transition: all 0.3s ease;
+    transform: scale(0.97);
+}
+.experience-image-tag > .experience-mob-image{
+    width: 450px;
+    height: auto;
+    display: none;
+}
+.experience-image-tag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-body-4 > .main-body-4-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+@media(max-width:1005px){
+    .experience-image-tag > .experience-image{
+        width: 800px;
+        height: auto;
+    }
+}
+@media(max-width:815px){
+    .experience-image-tag > .experience-image{
+        width: 600px;
+        height: auto;
+    }
+}
+@media(max-width:615px){
+
+    .experience-image-tag > .experience-image{
+        width: 600px;
+        height: auto;
+        display: none;
+    }
+    .experience-image-tag > .experience-mob-image{
+        width: 450px;
+        height: auto;
+        display: block;
+    }
+}
+@media(max-width:460px){
+
+    .experience-image-tag > .experience-mob-image{
+        width: 340px;
+        height: auto;
+        display: block;
+    }
+}

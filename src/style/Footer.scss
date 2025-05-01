@@ -1,0 +1,220 @@
+@import './GlobalStyle.scss';
+
+.main-footer-1{
+    background-color: $purple-color;
+    max-width: 100%;
+    margin: 40px 0px 0px 0px ;
+    justify-content: center;
+}
+
+.footer-title > .footer-title-1{
+    font-size:3rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 20px 0px;
+}
+.footer-title > .contactus-btn{
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    color: $purple-color;
+    transition: all 0.3s ease;
+    cursor:pointer;
+}
+.footer-title > .contactus-btn:hover{
+    transition: all 0.3s ease;
+    transform:scale(1.1);
+}
+.footer-title-cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+// }
+.footer-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    // gap: 120px;
+}
+.line-tag-1{
+    border: none;
+    height: 2px;
+    background-color: #ffffff;
+    width: 90%;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.port-logo{
+    width: 80px;
+    height: 80px;
+    margin: 0px;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: start;
+    // vertical-align: middle;
+    padding: 0px;
+}
+
+.footer-title-2-body-1-para-1{
+    font-size:1.1rem;
+    color: #fff;
+    margin: 0px;
+}
+.social-media-1{
+    width: 39px;
+    height: 39px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.social-media-2{
+    width: 50px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.social-media-logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.social-media-1:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.social-media-2:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.footer-contents-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 15px;
+    padding: 10px;
+}
+.navigation-contents > .navigation-p{
+    margin: 0px;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.navigation-contents > .navigation-p:hover{
+    transition: all 0.3s ease;
+    color: black;
+}
+.navigation-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.navigation-title{
+    font-size:1.5rem;
+    font-weight: 700;
+    margin: 0px 0px 20px 0px ;
+    color: #ffff;
+}
+.contact-contents > .contact-contents-p{
+    margin: 0px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact-contents > .contact-contents-p:hover{
+    transition: all 0.3s ease;
+    color: black;
+}
+.contact-contents > .contact-title{
+    font-size:1.5rem;
+    font-weight: 700;
+    margin: 0px 0px 20px 0px;
+    color: #fff;
+    cursor: pointer;
+}
+.contact-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.stay-touch{
+    font-size:1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px;
+}
+.footer-title-2-body-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow: hidden;
+}
+.copy-rights-contents p{
+    margin: 0px 0px 20px 0px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.copy-rights-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media(max-width:730px){
+    
+    .footer-title{
+        display: flex;
+        flex-direction: column;
+    }
+    .copy-rights-contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:765px){
+
+    .footer-title-2-body-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-contents-1{
+        align-items: center;
+    }
+}
+
+@media(max-width:530px){
+
+    .footer-title >.footer-title-1{
+        font-size:2rem;
+    }
+    .footer-title{
+        padding: 10px;
+    }
+}
+@media(max-width:450px){
+    
+    .footer-title-2-body-1{
+        padding: 10px;
+    }
+    .copy-rights-contents p{
+        margin: 0px 0px 20px 0px;
+        font-size: 1rem;
+        color: #fff;
+    }
+}

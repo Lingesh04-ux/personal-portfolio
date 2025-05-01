@@ -1,0 +1,137 @@
+@import './GlobalStyle.scss';
+
+.main-body-2-1{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.main-body-2-contents p{
+    margin: 0px;
+}
+
+.main-body-2-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all 0.3s ease;
+}
+.html-1{
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    // max-width: 80%;
+}
+.html-1:hover{
+    transform: scale(0.97);
+    transition: all 0.3s ease;
+}
+.js-1{
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    // max-width: 80%;
+}
+.js-1:hover{
+    transform: scale(0.97);
+    transition: all 0.3s ease;
+}
+.ps-1{
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    // max-width: 80%;
+}
+.ps-1:hover{
+    transform: scale(0.97);
+    transition: all 0.3s ease;
+}
+.xd-1{
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    // max-width: 80%;
+}
+.xd-1:hover{
+    transform: scale(0.97);
+    transition: all 0.3s ease;
+}
+.main-body-2-contents > .body-2-title-1{
+    font-size:25px;
+}
+.main-body-2-contents > .body-2-title-2{
+    font-size:4rem;
+    line-height: 60px;
+    font-weight: 500;
+}
+.body-2-para-1{
+    font-size:25px;
+    font-weight: 350;
+}
+.main-body-2-1{
+    display: flex;
+    flex-direction: row;
+    // gap: 25px;
+}
+.main-body-2-images{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.main-body-2-images-contents-1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+};
+.main-body-2-images-contents-2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+};
+
+@media (max-width:850px){
+    .main-body-2-images{
+        display: flex;
+        flex-direction: column;
+    }
+};
+@media(max-width:410px){
+    .html-1{
+        width: 340px;
+        height: auto;
+        // max-width: 80%;
+    };
+    .js-1{
+        width: 340px;
+        height: auto;
+        // max-width: 80%;
+    };
+    .ps-1{
+        width: 340px;
+        height: auto;
+        // max-width: 80%;
+    };
+    .xd-1{
+        width: 340px;
+        height: auto;
+        // max-width: 80%;
+    };
+    .main-body-2-contents > .body-2-title-2{
+        font-size:3rem;
+        line-height: 45px;
+        font-weight: 500;
+    };
+    .body-2-para-1{
+        font-size:20px;
+        font-weight: 350;
+    }
+};   
