@@ -58,7 +58,7 @@ function Footer() {
             <div className="contact-contents">
               <p className='contact-title'>Contact</p>
               {/* Email ID */}
-              <a href="https://mail.google.com/" style={{textDecoration: 'none', color:'white'}}><p className='contact-contents-p'>lingeshhari4@gmail.com</p></a>
+              <a href="https://mail.google.com/" style={{textDecoration: 'none', color:'white', margin:'0px'}}><p className='contact-contents-p'>lingeshhari4@gmail.com</p></a>
               {/* Hyper link */}
               <a href="https://lingeshhari-portfolio.netlify.app/" style={{textDecoration: 'none', color:'white'}}><p className='contact-contents-p'>lingeshhari.com</p></a>
             </div>

@@ -19,9 +19,9 @@ function MainBody1() {
                 <br /> people in the world that can be useful to human society </p>
             </div>
             <div className="main-body-1-images">
-                <a href="#"><img src={web} alt="web" className='web-image'/></a>
-                <a href="#"><img src={coding} alt="coding" className='web-image'/></a>
-                <a href="#"><img src={team} alt="team" className='web-image'/></a>
+                <a href=""><img src={web} alt="web" className='web-image'/></a>
+                <a href=""><img src={coding} alt="coding" className='web-image'/></a>
+                <a href=""><img src={team} alt="team" className='web-image'/></a>
             </div>
         </div>
     </div>

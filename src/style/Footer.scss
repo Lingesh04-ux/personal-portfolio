@@ -124,11 +124,14 @@
     margin: 0px 0px 20px 0px ;
     color: #ffff;
 }
-.contact-contents > .contact-contents-p{
+.contact-contents > .contact-contents-p {
     margin: 0px;
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+.contact-contents > .contact-contents-p p{
+    margin: 0px 0px 0px 0px;
 }
 .contact-contents > .contact-contents-p:hover{
     transition: all 0.3s ease;
