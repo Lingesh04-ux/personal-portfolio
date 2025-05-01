@@ -142,7 +142,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 5px 10px;
     transition:all 0.3s ease;
 }
 .header-about:hover{
@@ -159,7 +159,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 5px 10px;
     transition: all 0.3s ease;
 }
 .header-download:hover{
@@ -347,11 +347,13 @@
     .header-about{
         width:130px;
         height:35px;
-        font-size:1.2rem;
+        font-weight: 500;
+        font-size:1.1rem;
     }
     .header-download{
         width:130px;
         height:35px;
-        font-size:14px;
+        font-weight: 500;
+        font-size:16px;
     }
 }
